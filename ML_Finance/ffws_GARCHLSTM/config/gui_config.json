@@ -1,0 +1,15 @@
+{
+  "sqlite_path": "C:/Users/soyko/Documents/git2/Market/cow_lvl-2oct/data_manager/exports/1m_influx30sept25.db",
+  "table": "ohlcv",
+  "symbol": "BTCUSDT",
+  "timeframe": "1m",
+  "seq_len": 224,
+  "horizon": 32,
+  "hidden": 92,
+  "epochs": 300,
+  "batch_size": 256,
+  "lr": 1e-07,
+  "val_frac": 0.25,
+  "dtype": "float32",
+  "feature_cols_manual": ""
+}

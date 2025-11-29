@@ -1,0 +1,12 @@
+pandas
+numpy
+geopandas
+shapely
+statsmodels
+matplotlib
+folium
+numexpr
+linearmodels
+pysal
+jupyterlab
+jupytext

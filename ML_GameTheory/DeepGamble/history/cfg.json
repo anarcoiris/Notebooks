@@ -1,0 +1,77 @@
+{
+  "config": {
+    "small_blind": 5,
+    "big_blind": 10,
+    "starting_stack": 1000,
+    "rounds": 200,
+    "recursion_depth": 1,
+    "mc_samples": 150,
+    "bet_sizes": [
+      0.5,
+      1.0,
+      2.0
+    ]
+  },
+  "profiles": [
+    {
+      "name": "Hero",
+      "stack": 5082,
+      "aggression": 0.5,
+      "erraticity": 0.0,
+      "risk": 0.5,
+      "vpip": 0.2,
+      "pfr": 0.1,
+      "is_hero": true
+    },
+    {
+      "name": "Villain",
+      "stack": 1,
+      "aggression": 0.5,
+      "erraticity": 0.0,
+      "risk": 0.5,
+      "vpip": 0.2,
+      "pfr": 0.1,
+      "is_hero": false
+    },
+    {
+      "name": "Tight-Passive",
+      "stack": 0,
+      "aggression": 0.2,
+      "erraticity": 0.05,
+      "risk": 0.2,
+      "vpip": 0.2,
+      "pfr": 0.1,
+      "is_hero": false
+    },
+    {
+      "name": "Loose-Aggro",
+      "stack": 511,
+      "aggression": 0.8,
+      "erraticity": 0.1,
+      "risk": 0.7,
+      "vpip": 0.2,
+      "pfr": 0.1,
+      "is_hero": false
+    },
+    {
+      "name": "Maniac",
+      "stack": 22,
+      "aggression": 0.95,
+      "erraticity": 0.4,
+      "risk": 0.9,
+      "vpip": 0.2,
+      "pfr": 0.1,
+      "is_hero": false
+    },
+    {
+      "name": "Calling-Station",
+      "stack": 366,
+      "aggression": 0.3,
+      "erraticity": 0.02,
+      "risk": 0.3,
+      "vpip": 0.2,
+      "pfr": 0.1,
+      "is_hero": false
+    }
+  ]
+}
